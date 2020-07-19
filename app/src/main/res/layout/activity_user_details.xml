@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".UserDetails">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPict"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/my_profile"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myPict"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:text="Nama : Tommy Edityantama Hutapea"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:text="E-mail : tommyedityantama@gmail.com"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
